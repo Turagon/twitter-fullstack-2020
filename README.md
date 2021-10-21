@@ -7,13 +7,13 @@ Github repo: https://github.com/Turagon/twitter-fullstack-2020
 
 ### Getting Started       
 ### Function List   
-使用者可以註冊、登入、登出
-使用者註冊時 會即時顯示帳號是否可用           
-使用者可以編輯個人資料 (account, name, email, password)     
-使用者能編輯自己的暱稱、自我介紹、個人頭像與封面
-使用者編輯帳號或是自我介紹時，即時顯示輸入字數         
-使用者可以發表推文，回覆/按讚他人的推文     
-使用者可以追蹤/取消追蹤他人     
+使用者可以註冊、登入、登出     
+使用者註冊時 會即時顯示帳號是否可用                
+使用者可以編輯個人資料 (account, name, email, password)         
+使用者能編輯自己的暱稱、自我介紹、個人頭像與封面    
+使用者編輯帳號或是自我介紹時，即時顯示輸入字數              
+使用者可以發表推文，回覆/按讚他人的推文             
+使用者可以追蹤/取消追蹤他人         
 登入的使用者可以看到以下頁籤：     
 推文   
 推文與回覆    
@@ -51,15 +51,15 @@ $ npm run dev
 server on    
 測試帳號、密碼       
 Admin 帳號：     
-root@example.com     
+root            
 
 一般使用者 帳號：     
-user1@example.com     
-user2@example.com    
-user3@example.com     
-user4@example.com    
-user5@example.com    
-user6@example.com      
+user1           
+user2            
+user3            
+user4           
+user5           
+user6               
 
 密碼皆為：     
 12345678      
