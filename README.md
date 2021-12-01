@@ -44,16 +44,16 @@ Before starting this app, please install NPM, MySQL, MySQL Workbench
   設定環境變數檔案，建立.env檔。
   設定參數如下:    
   * SESSION_SECRET    
-  * IMGUR_CLIENT_ID
+  * IMGUR_CLIENT_ID    
   for IMGUR_CLIENT_ID, you need go to Imgur official site register an account and apply for it                 
   需要註冊並取得IMGUR_CLIENT_ID。 Imgur官網：https://imgur.com/       
 
 MySQL Workbench 新增資料庫     
 
-Please refer to config.json for the database setting
+Please refer to config.json for the database setting     
 開發環境的資料庫名稱：twitter_workspace 測試環境的資料庫名稱：twitter_workspace_test 可參考config.json     
 
-Run migration after database is built
+Run migration after database is built      
 執行 migration     
 $ npx sequelize db:migrate    
 新增種子資料     
